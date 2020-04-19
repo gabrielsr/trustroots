@@ -28,12 +28,6 @@ describe('Pages Route Tests', function() {
       it('Should not be abstract', function() {
         expect(mainstate.abstract).toBe(undefined);
       });
-
-      it('Should have templateUrl', function() {
-        expect(mainstate.templateUrl).toBe(
-          '/modules/pages/views/rules.client.view.html',
-        );
-      });
     });
 
     describe('Team Route', function() {
@@ -48,12 +42,6 @@ describe('Pages Route Tests', function() {
 
       it('Should not be abstract', function() {
         expect(mainstate.abstract).toBe(undefined);
-      });
-
-      it('Should have templateUrl', function() {
-        expect(mainstate.templateUrl).toBe(
-          '/modules/pages/views/team.client.view.html',
-        );
       });
     });
 
@@ -70,12 +58,6 @@ describe('Pages Route Tests', function() {
       it('Should not be abstract', function() {
         expect(mainstate.abstract).toBe(undefined);
       });
-
-      it('Should have templateUrl', function() {
-        expect(mainstate.templateUrl).toBe(
-          '/modules/pages/views/privacy.client.view.html',
-        );
-      });
     });
 
     describe('Donate Route', function() {
@@ -90,12 +72,6 @@ describe('Pages Route Tests', function() {
 
       it('Should not be abstract', function() {
         expect(mainstate.abstract).toBe(undefined);
-      });
-
-      it('Should have templateUrl', function() {
-        expect(mainstate.templateUrl).toBe(
-          '/modules/pages/views/donate.client.view.html',
-        );
       });
     });
 
@@ -112,12 +88,6 @@ describe('Pages Route Tests', function() {
       it('Should not be abstract', function() {
         expect(mainstate.abstract).toBe(undefined);
       });
-
-      it('Should have templateUrl', function() {
-        expect(mainstate.templateUrl).toBe(
-          '/modules/pages/views/donate-help.client.view.html',
-        );
-      });
     });
 
     describe('Donation policy Route', function() {
@@ -132,12 +102,6 @@ describe('Pages Route Tests', function() {
 
       it('Should not be abstract', function() {
         expect(mainstate.abstract).toBe(undefined);
-      });
-
-      it('Should have templateUrl', function() {
-        expect(mainstate.templateUrl).toBe(
-          '/modules/pages/views/donate-policy.client.view.html',
-        );
       });
     });
 
@@ -154,12 +118,6 @@ describe('Pages Route Tests', function() {
       it('Should not be abstract', function() {
         expect(mainstate.abstract).toBe(true);
       });
-
-      it('Should have templateUrl', function() {
-        expect(mainstate.templateUrl).toBe(
-          '/modules/pages/views/faq.client.view.html',
-        );
-      });
     });
 
     describe('FAQ Sub Route', function() {
@@ -174,12 +132,6 @@ describe('Pages Route Tests', function() {
 
       it('Should not be abstract', function() {
         expect(mainstate.abstract).toBe(undefined);
-      });
-
-      it('Should have templateUrl', function() {
-        expect(mainstate.templateUrl).toBe(
-          '/modules/pages/views/faq-foundation.client.view.html',
-        );
       });
     });
 
@@ -196,12 +148,6 @@ describe('Pages Route Tests', function() {
       it('Should not be abstract', function() {
         expect(mainstate.abstract).toBe(undefined);
       });
-
-      it('Should have templateUrl', function() {
-        expect(mainstate.templateUrl).toBe(
-          '/modules/pages/views/foundation.client.view.html',
-        );
-      });
     });
 
     describe('Media Route', function() {
@@ -216,12 +162,6 @@ describe('Pages Route Tests', function() {
 
       it('Should not be abstract', function() {
         expect(mainstate.abstract).toBe(undefined);
-      });
-
-      it('Should have templateUrl', function() {
-        expect(mainstate.templateUrl).toBe(
-          '/modules/pages/views/media.client.view.html',
-        );
       });
     });
 
@@ -238,10 +178,6 @@ describe('Pages Route Tests', function() {
       it('Should not be abstract', function() {
         expect(mainstate.abstract).toBe(undefined);
       });
-
-      it('Should have template', function() {
-        expect(mainstate.template).toBeDefined();
-      });
     });
 
     describe('Guide Route', function() {
@@ -257,12 +193,6 @@ describe('Pages Route Tests', function() {
       it('Should not be abstract', function() {
         expect(mainstate.abstract).toBe(undefined);
       });
-
-      it('Should have templateUrl', function() {
-        expect(mainstate.templateUrl).toBe(
-          '/modules/pages/views/guide.client.view.html',
-        );
-      });
     });
 
     describe('Mobile Navigation Route', function() {
@@ -277,12 +207,6 @@ describe('Pages Route Tests', function() {
 
       it('Should not be abstract', function() {
         expect(mainstate.abstract).toBe(undefined);
-      });
-
-      it('Should have templateUrl', function() {
-        expect(mainstate.templateUrl).toBe(
-          '/modules/pages/views/navigation.client.view.html',
-        );
       });
 
       it('Should require authentication', function() {
